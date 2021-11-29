@@ -15,13 +15,20 @@
     <meta property="og:url" content="https://evie.eviebot.rocks/" />
     <meta property="og:title" content="evie" />
     <meta property="og:description" content="" />
-    <meta property="og:image" content="https://evie.eviebot.rocks{evie}" />
+    <meta
+      property="og:image"
+      content="https://evie.eviebot.rocks/evies/5.jpg"
+    />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://evie.eviebot.rocks/" />
     <meta property="twitter:title" content="evie" />
     <meta property="twitter:description" content="" />
-    <meta property="twitter:image" content="https://evie.eviebot.rocks{evie}" />
+    <meta
+      property="twitter:image"
+      content="https://evie.eviebot.rocks/evies/5.jpg"
+    />
   </head>
-  <img src={evie} alt="amazing evie picture" />
+  <!-- svelte-ignore a11y-missing-attribute -->
+  <img src={evie} />
 </main>
